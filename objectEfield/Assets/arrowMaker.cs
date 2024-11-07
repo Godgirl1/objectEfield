@@ -12,7 +12,7 @@ public class arrowMaker : MonoBehaviour
     {
         int arrowCount = 10; // Number of additional arrows
         float baseDistance = 0.4f; // Starting distance
-        float distanceIncrement = 1.0f; // Distance increment for each set of arrows
+        float distanceIncrement = 0.30f; // Distance increment for each set of arrows
 
         for (int i = 0; i < 360; i += 15) // This is phi
         {
